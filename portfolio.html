@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Портфолио — ARCHIVE0</title>
+<meta name="description" content="Работы студии ARCHIVE0: лендинги, интернет-магазины, сайты игровых серверов и веб-сервисы. Живые превью — кликните, чтобы открыть проект.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/background.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/nav.css">
+<link rel="stylesheet" href="assets/css/buttons.css">
+<link rel="stylesheet" href="assets/css/services.css">
+<link rel="stylesheet" href="assets/css/portfolio.css">
+<link rel="stylesheet" href="assets/css/pricing.css">
+<link rel="stylesheet" href="assets/css/contact.css">
+<link rel="stylesheet" href="assets/css/footer.css">
+<link rel="stylesheet" href="assets/css/animations.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<div class="bg-anim" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="glow" id="glow" aria-hidden="true"></div>
+
+<nav id="nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="seal">A0</span>
+      <span class="brand-text"><span class="brand-name">ARCHIVE0</span><span class="brand-sub">студия разработки</span></span>
+    </a>
+    <ul>
+      <li><a href="index.html#about">Студия</a></li>
+      <li><a href="index.html#me">Обо мне</a></li>
+      <li><a href="uslugi.html">Услуги</a></li>
+      <li><a href="portfolio.html" aria-current="page">Портфолио</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="index.html#contact" class="nav-cta">Связаться</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#about">О студии</a>
+  <a href="index.html#me">Обо мне</a>
+  <a href="uslugi.html">Услуги</a>
+  <a href="portfolio.html">Портфолио</a>
+  <a href="index.html#faq">FAQ</a>
+  <a href="index.html#contact" class="nav-cta">Связаться</a>
+</div>
+
+<section class="page-head">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Портфолио</div>
+      <h2>Работы, которые можно открыть</h2>
+      <p>Каждый блок ниже — настоящая главная страница проекта, а не скриншот. Кликните по любому блоку, чтобы открыть сайт в новой вкладке и посмотреть его целиком.</p>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="work-filters reveal" role="group" aria-label="Фильтр работ">
+      <button class="chip" data-filter="all" aria-pressed="true">Все работы</button>
+      <button class="chip" data-filter="biz" aria-pressed="false">Бизнес и бренды</button>
+      <button class="chip" data-filter="shop" aria-pressed="false">Магазины</button>
+      <button class="chip" data-filter="game" aria-pressed="false">Игровые проекты</button>
+    </div>
+
+    <div class="work-grid">
+
+      <article class="work-card" data-cat="game">
+        <a class="work-link" href="https://yurymitrofanov.github.io/site3/" target="_blank" rel="noopener">
+          <div class="work-chrome"><i></i><i></i><i></i><span class="url">yurymitrofanov.github.io/site3/</span></div>
+          <div class="work-frame">
+            <span class="skeleton">загрузка превью</span>
+            <iframe data-src="https://yurymitrofanov.github.io/site3/" data-w="1440" title="Превью сайта NEXUS" loading="lazy" tabindex="-1" scrolling="no" sandbox="allow-scripts allow-same-origin"></iframe>
+            <span class="work-open"><span>Открыть сайт</span><span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-body">
+            <span class="case-tag">Landing · Gaming</span>
+            <h3>NEXUS — Minecraft-сервер</h3>
+            <p>Лендинг игрового сервера: онлайн в реальном времени, копирование IP, режимы игры и статистика аптайма.</p>
+            <div class="work-stack"><span>HTML/CSS</span><span>JS</span><span>анимации</span></div>
+          </div>
+        </a>
+      </article>
+
+      <article class="work-card" data-cat="shop">
+        <a class="work-link" href="https://yurymitrofanov.github.io/shop/" target="_blank" rel="noopener">
+          <div class="work-chrome"><i></i><i></i><i></i><span class="url">yurymitrofanov.github.io/shop/</span></div>
+          <div class="work-frame">
+            <span class="skeleton">загрузка превью</span>
+            <iframe data-src="https://yurymitrofanov.github.io/shop/" data-w="1440" title="Превью магазина LUMERA" loading="lazy" tabindex="-1" scrolling="no" sandbox="allow-scripts allow-same-origin"></iframe>
+            <span class="work-open"><span>Открыть сайт</span><span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-body">
+            <span class="case-tag">E-commerce · Jewelry</span>
+            <h3>LUMERA — магазин украшений</h3>
+            <p>Полноценный интернет-магазин: каталог с фильтрами и сортировкой, карточка товара, корзина, избранное, оформление заказа и личный кабинет.</p>
+            <div class="work-stack"><span>SPA</span><span>корзина</span><span>каталог</span></div>
+          </div>
+        </a>
+      </article>
+
+      <article class="work-card" data-cat="biz">
+        <a class="work-link" href="https://yurymitrofanov.github.io/site2/" target="_blank" rel="noopener">
+          <div class="work-chrome"><i></i><i></i><i></i><span class="url">yurymitrofanov.github.io/site2/</span></div>
+          <div class="work-frame">
+            <span class="skeleton">загрузка превью</span>
+            <iframe data-src="https://yurymitrofanov.github.io/site2/" data-w="1440" title="Превью сайта AETHER" loading="lazy" tabindex="-1" scrolling="no" sandbox="allow-scripts allow-same-origin"></iframe>
+            <span class="work-open"><span>Открыть сайт</span><span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-body">
+            <span class="case-tag">Landing · Architecture</span>
+            <h3>AETHER — архитектурная студия</h3>
+            <p>Сайт студии премиум-архитектуры: этапы работы, портфолио объектов, отзывы клиентов и форма заявки на консультацию.</p>
+            <div class="work-stack"><span>HTML/CSS</span><span>JS</span><span>адаптив</span></div>
+          </div>
+        </a>
+      </article>
+
+      <article class="work-card" data-cat="biz">
+        <a class="work-link" href="https://yurymitrofanov.github.io/site4/" target="_blank" rel="noopener">
+          <div class="work-chrome"><i></i><i></i><i></i><span class="url">yurymitrofanov.github.io/site4/</span></div>
+          <div class="work-frame">
+            <span class="skeleton">загрузка превью</span>
+            <iframe data-src="https://yurymitrofanov.github.io/site4/" data-w="1440" title="Превью сайта AURELIO" loading="lazy" tabindex="-1" scrolling="no" sandbox="allow-scripts allow-same-origin"></iframe>
+            <span class="work-open"><span>Открыть сайт</span><span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-body">
+            <span class="case-tag">Landing · Luxury</span>
+            <h3>AURELIO — швейцарские часы</h3>
+            <p>Премиальный лендинг часового бренда: флагманские линии, история мастерских, бегущая строка преимуществ и запись на консультацию.</p>
+            <div class="work-stack"><span>HTML/CSS</span><span>marquee</span><span>типографика</span></div>
+          </div>
+        </a>
+      </article>
+
+      <article class="work-card" data-cat="biz">
+        <a class="work-link" href="https://yurymitrofanov.github.io/site5/" target="_blank" rel="noopener">
+          <div class="work-chrome"><i></i><i></i><i></i><span class="url">yurymitrofanov.github.io/site5/</span></div>
+          <div class="work-frame">
+            <span class="skeleton">загрузка превью</span>
+            <iframe data-src="https://yurymitrofanov.github.io/site5/" data-w="1440" title="Превью сайта Fluxo" loading="lazy" tabindex="-1" scrolling="no" sandbox="allow-scripts allow-same-origin"></iframe>
+            <span class="work-open"><span>Открыть сайт</span><span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-body">
+            <span class="case-tag">Landing · SaaS</span>
+            <h3>Fluxo — AI-платформа автоматизации</h3>
+            <p>Продуктовый лендинг SaaS: демо-панель с живыми метриками, блок возможностей, три тарифа и сквозные CTA на регистрацию.</p>
+            <div class="work-stack"><span>HTML/CSS</span><span>JS</span><span>тарифы</span></div>
+          </div>
+        </a>
+      </article>
+
+      <article class="work-card" data-cat="game">
+        <a class="work-link" href="https://yurymitrofanov.github.io/dising/" target="_blank" rel="noopener">
+          <div class="work-chrome"><i></i><i></i><i></i><span class="url">yurymitrofanov.github.io/dising/</span></div>
+          <div class="work-frame">
+            <span class="skeleton">загрузка превью</span>
+            <iframe data-src="https://yurymitrofanov.github.io/dising/" data-w="1440" title="Превью донат-магазина WorldTheCraft" loading="lazy" tabindex="-1" scrolling="no" sandbox="allow-scripts allow-same-origin"></iframe>
+            <span class="work-open"><span>Открыть сайт</span><span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-body">
+            <span class="case-tag">Store · Gaming</span>
+            <h3>WorldTheCraft — донат-магазин</h3>
+            <p>Магазин привилегий Minecraft-сервера: категории товаров, корзина с выбором способа оплаты, сбор на сервер и топ донатеров.</p>
+            <div class="work-stack"><span>JS</span><span>оплата</span><span>корзина</span></div>
+          </div>
+        </a>
+      </article>
+
+      <article class="work-card" data-cat="game">
+        <a class="work-link" href="https://yurymitrofanov.github.io/samp/" target="_blank" rel="noopener">
+          <div class="work-chrome"><i></i><i></i><i></i><span class="url">yurymitrofanov.github.io/samp/</span></div>
+          <div class="work-frame">
+            <span class="skeleton">загрузка превью</span>
+            <iframe data-src="https://yurymitrofanov.github.io/samp/" data-w="1440" title="Превью сайта игрового проекта SA-MP" loading="lazy" tabindex="-1" scrolling="no" sandbox="allow-scripts allow-same-origin"></iframe>
+            <span class="work-open"><span>Открыть сайт</span><span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-body">
+            <span class="case-tag">Landing · Gaming</span>
+            <h3>Игровой проект SA-MP</h3>
+            <p>Сайт сервера GTA: San Andreas Multiplayer — подключение к серверу и разделы для игроков.</p>
+            <div class="work-stack"><span>HTML/CSS</span><span>JS</span></div>
+          </div>
+        </a>
+      </article>
+
+      <article class="work-card" data-cat="biz">
+        <a class="work-link" href="https://yurymitrofanov.github.io/site6/" target="_blank" rel="noopener">
+          <div class="work-chrome"><i></i><i></i><i></i><span class="url">yurymitrofanov.github.io/site6/</span></div>
+          <div class="work-frame">
+            <span class="skeleton">загрузка превью</span>
+            <iframe data-src="https://yurymitrofanov.github.io/site6/" data-w="1440" title="Превью сайта MERIDIAN" loading="lazy" tabindex="-1" scrolling="no" sandbox="allow-scripts allow-same-origin"></iframe>
+            <span class="work-open"><span>Открыть сайт</span><span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-body">
+            <span class="case-tag">Landing · Real Estate</span>
+            <h3>MERIDIAN — элитная недвижимость</h3>
+            <p>Сайт агентства премиум-недвижимости: поиск объектов по локации, типу и бюджету, карточки резиденций и заявка на просмотр.</p>
+            <div class="work-stack"><span>HTML/CSS</span><span>JS</span><span>фильтры</span></div>
+          </div>
+        </a>
+      </article>
+
+      <article class="work-card" data-cat="biz">
+        <a class="work-link" href="https://yurymitrofanov.github.io/site1/" target="_blank" rel="noopener">
+          <div class="work-chrome"><i></i><i></i><i></i><span class="url">yurymitrofanov.github.io/site1/</span></div>
+          <div class="work-frame">
+            <span class="skeleton">загрузка превью</span>
+            <iframe data-src="https://yurymitrofanov.github.io/site1/" data-w="1440" title="Превью сайта AVERA English Academy" loading="lazy" tabindex="-1" scrolling="no" sandbox="allow-scripts allow-same-origin"></iframe>
+            <span class="work-open"><span>Открыть сайт</span><span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-body">
+            <span class="case-tag">Landing · Education</span>
+            <h3>AVERA — академия английского</h3>
+            <p>Онлайн-школа языка: курсы и уровни, подбор программы, личный кабинет с прогрессом, тарифы и запись на бесплатный урок.</p>
+            <div class="work-stack"><span>HTML/CSS</span><span>JS</span><span>личный кабинет</span></div>
+          </div>
+        </a>
+      </article>
+
+
+      <article class="work-card" data-cat="biz">
+        <a class="work-link" href="https://yurymitrofanov.github.io/site7/" target="_blank" rel="noopener">
+          <div class="work-chrome"><i></i><i></i><i></i><span class="url">yurymitrofanov.github.io/site7/</span></div>
+          <div class="work-frame">
+            <span class="skeleton">загрузка превью</span>
+            <iframe data-src="https://yurymitrofanov.github.io/site7/" data-w="1440" title="Превью сайта NOIR" loading="lazy" tabindex="-1" scrolling="no" sandbox="allow-scripts allow-same-origin"></iframe>
+            <span class="work-open"><span>Открыть сайт</span><span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-body">
+            <span class="case-tag">Landing · Restaurant</span>
+            <h3>NOIR — ресторан авторской кухни</h3>
+            <p>Атмосферный сайт fine dining: сезонное меню с ценами, галерея пространства и онлайн-бронирование стола.</p>
+            <div class="work-stack"><span>HTML/CSS</span><span>бронирование</span></div>
+          </div>
+        </a>
+      </article>
+
+    </div>
+
+    <div class="work-more">
+      <a href="index.html#contact" class="btn btn-primary">Хочу такой же проект →</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="price-cta reveal">
+      <h2>Нужен сайт из этого списка?</h2>
+      <p>Опишите задачу — подберу похожее решение, назову фиксированную цену и срок. Обычно отвечаю в течение дня.</p>
+      <div class="contact-buttons">
+        <a href="https://t.me/neizvestny21" target="_blank" rel="noopener" class="btn btn-tg">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3L19.4 4.13c.73-.33 1.43.18 1.15 1.3l-2.99 14.1c-.21.98-.8 1.22-1.62.76l-4.47-3.3-2.16 2.08c-.24.24-.44.44-.9.44z"/></svg>
+          Написать в Telegram
+        </a>
+        <a href="uslugi.html" class="btn btn-ghost">Услуги и цены</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 ARCHIVE0 · Юрий Митрофанов</span>
+    <span>Made with care</span>
+  </div>
+</footer>
+
+<a href="https://t.me/neizvestny21" target="_blank" rel="noopener" class="fab" aria-label="Написать в Telegram">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3L19.4 4.13c.73-.33 1.43.18 1.15 1.3l-2.99 14.1c-.21.98-.8 1.22-1.62.76l-4.47-3.3-2.16 2.08c-.24.24-.44.44-.9.44z"/></svg>
+</a>
+
+<script src="assets/js/utils.js" defer></script>
+<script src="assets/js/nav.js" defer></script>
+<script src="assets/js/reveal.js" defer></script>
+<script src="assets/js/effects.js" defer></script>
+<script src="assets/js/previews.js" defer></script>
+
+</body>
+</html>
